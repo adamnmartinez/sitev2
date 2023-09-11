@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Cantarell&family=Merriweather+Sans&family=Quattrocento+Sans&display=swap");
+
+:root {
+  font-family: "Alata";
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+
+  color-scheme: light dark;
+  color: rgb(209, 224, 227);
+  background-color: rgb(46, 46, 57);
+  --highlight: rgb(136, 225, 255);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+#appWrapper {
+  display: flex;
+}
+
+.leftContainer {
+  padding: 10rem;
+  padding-top: 5rem;
+  padding-right: 5rem;
+  flex: 1;
+}
+
+.rightContainer {
+  padding: 10rem;
+  padding-top: 5rem;
+  padding-left: 5rem;
+  flex: 1;
+}
+
+#namePlate {
+  margin: 0;
+  font-size: 1.5rem;
+  height: 350px;
+  max-height: 350px;
+}
+
+.highlight {
+  color: var(--highlight);
+}
+
+.hoverText {
+  opacity: 70%;
+  width: 10%;
+  max-width: 10%;
+}
+
+.iconList {
+  padding: 0;
+}
+
+header {
+  font-size: 4rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.projectLinks {
+  font-size: 1.3rem;
+}
+
+.projectList a {
+  text-decoration: none;
+  color: rgb(164, 166, 157);
+  transition: color 500ms;
+}
+
+.projectList a:hover {
+  color: var(--highlight);
+  transition: color 500ms;
+}
+
+.iconList {
+  display: inline;
+  list-style: none;
+  height: 50px;
+  max-height: 50px;
+}
+
+.icon {
+  opacity: 50%;
+  margin: 0.5rem;
+  margin-right: 2rem;
+  margin-left: 0rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  float: left;
+  transition: opacity 500ms;
+}
+
+img.icon.last {
+  margin-right: 0;
+}
+
+.icon:hover {
+  opacity: 100%;
+  transition: opacity 500ms;
+}
+
+#skills {
+  font-size: 1.5rem;
+  padding-top: 30px;
+  height: 100px;
+  max-height: 100px;
+}
+
+.projectList {
+  list-style: none;
+  padding-left: 0;
+}
+
+.projectListElement {
+  display: flex;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+#projects header {
+  font-size: 2rem;
+}
+#projects p {
+  font-size: 1.3rem;
+}
+
+.projectScreenshot {
+  height: 10vw;
+  width: 20vw;
+  padding: 1rem;
+  margin-left: 1rem;
+  border-radius: 20px;
+  opacity: 70%;
+  transition: opacity 500ms;
+}
+
+.projectScreenshot:hover {
+  opacity: 100%;
+  transition: opacity 500ms;
+}
+
+@media (max-width: 1400px) {
+  .projectListElement {
+    display: inline;
+  }
+
+  .projectScreenshot {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  :root {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 1020px) {
+  #appWrapper {
+    text-align: center;
+    display: inline;
+  }
+
+  .iconList li {
+    display: inline-block;
+  }
+
+  .rightContainer {
+    padding-right: 5rem;
+  }
+
+  .leftContainer {
+    padding-left: 5rem;
+  }
+
+  .projectScreenshot {
+    padding: 1rem;
+    margin-left: 1rem;
+  }
+
+  .hoverText {
+    margin: 0px;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 580px) {
+  :root {
+    font-size: 10px;
+  }
+}
