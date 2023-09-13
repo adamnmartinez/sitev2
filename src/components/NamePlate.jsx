@@ -48,20 +48,30 @@ export default function NamePlate() {
 
   return (
     <div id="namePlate">
-      <h1>Welcome! My name is</h1>
-      <header>
-        <span className="highlight">Adam Martinez</span>.
-      </header>
-      <h1>
-        I'm a <span className="highlight">web developer</span>.
-      </h1>
-      <hr />
-      <p>
-        I design and develop experiences on the ever-changing medium of the web.
-      </p>
-      <Links />
-      <br />
-      <p className="hoverText">{hover}</p>
+      <div className="namePlateHead">
+        <h1>Welcome! My name is</h1>
+        <header>
+          <span className="highlight">Adam Martinez</span>.
+        </header>
+        <h1>
+          I'm a <span className="highlight">web developer</span>.
+        </h1>
+        <hr />
+      </div>
+      <div className="namePlateBody">
+        <p>
+          {/* I design and develop sites and digital experiences for the web. */}
+          I grew up with the web, and over the course of my life I have seen it
+          grow into a wild and unpredicatble engine with the capacity to drive
+          culture, motivate populations, and inspire change. Today I seek to
+          harness this power by designing and creating immersive apps and
+          software that help people engage with this interconnected world we now
+          share.
+        </p>
+        <Links />
+        <br />
+        <p className="hoverText">{hover}</p>
+      </div>
     </div>
   );
 }
