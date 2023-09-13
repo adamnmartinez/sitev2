@@ -1,4 +1,4 @@
-# Adam Martinez's Portfolio Website | [adamnmartinez.com](adamnmartinez.com) 
+# Adam Martinez's Portfolio Website | [adamnmartinez.com](http://www.adamnmartinez.com) 
 
 ![Screenshot (24)](https://github.com/adamnmartinez/sitev2/assets/140022079/81d3c88a-c9cd-4013-81b8-7df6807607cc)
 
