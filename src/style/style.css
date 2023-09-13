@@ -256,8 +256,20 @@ img.icon.last {
   }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 520px) {
   :root {
     font-size: 10px;
+  }
+}
+
+@media (max-width: 420px) {
+  :root {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 360px) {
+  :root {
+    font-size: 8px;
   }
 }
