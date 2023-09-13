@@ -1,8 +1,10 @@
-# React + Vite
+# Adam Martinez's Portfolio Website | [adamnmartinez.com](adamnmartinez.com) 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Screenshot (24)](https://github.com/adamnmartinez/sitev2/assets/140022079/81d3c88a-c9cd-4013-81b8-7df6807607cc)
 
-Currently, two official plugins are available:
+This is the second version of my portfolio website built with React and hosted by Netlify. It contains some of the projects I've been working on and the technologies I make use of most frequently.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Colors:
+- Highlight (#88e1e1)
+- Text (#d1e0e3)
+- Background (#2e2e39)
