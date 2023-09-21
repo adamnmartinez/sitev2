@@ -8,6 +8,8 @@ import reacticon from "../assets/icons/react.svg";
 import npmicon from "../assets/icons/npm.svg";
 import webpackicon from "../assets/icons/webpack.svg";
 import pythonicon from "../assets/icons/python.svg";
+import tsicon from "../assets/icons/typescript.svg";
+import sassicon from "../assets/icons/sass.svg";
 
 export default function Skills() {
   const [hover, setHover] = useState("");
@@ -27,11 +29,13 @@ export default function Skills() {
         <SkillIcon icon={javaicon} name="Java" />
         <SkillIcon icon={pythonicon} name="Python" />
         <SkillIcon icon={jsicon} name="JavaScript" />
+        <SkillIcon icon={tsicon} name="TypeScript" />
         <SkillIcon icon={nodeicon} name="NodeJS" />
         <SkillIcon icon={reacticon} name="ReactJS" />
         <SkillIcon icon={htmlicon} name="HTML" />
         <SkillIcon icon={cssicon} name="CSS" />
         <SkillIcon icon={webpackicon} name="Webpack" />
+        <SkillIcon icon={sassicon} name="Sass" />
         <SkillIcon icon={npmicon} name="npm" last={true} />
       </ul>
     );

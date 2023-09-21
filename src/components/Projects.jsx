@@ -1,5 +1,6 @@
 import { useState } from "react";
 import hotg from "../assets/images/hotgss.png";
+import compendium from "../assets/images/compendiumss.png";
 
 export default function Projects() {
   function ProjectItem({ name, desc, img, tags = [], repo, live }) {
@@ -34,6 +35,13 @@ export default function Projects() {
           img={hotg}
           repo="https://github.com/adamnmartinez/heartofthegulfv2"
           live="https://heartofthegulf.netlify.app/"
+        />
+        <ProjectItem
+          name="Compendium"
+          desc="A feature-rich note-taking app for books and novels. Take comprehensive, organized notes for essays, writing projects, personal study and more. Designed for readers, writers and students."
+          img={compendium}
+          repo="https://github.com/adamnmartinez/compendium"
+          live="https://compendiumapp.netlify.app/"
         />
       </ul>
     );

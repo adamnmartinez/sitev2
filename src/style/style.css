@@ -153,8 +153,8 @@ img.icon.last {
 #skills {
   font-size: 1.5rem;
   padding-top: 30px;
-  height: 100px;
-  max-height: 100px;
+  height: 200px;
+  max-height: 200px;
 }
 
 .projectList {
