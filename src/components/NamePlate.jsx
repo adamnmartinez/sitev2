@@ -59,6 +59,8 @@ export default function NamePlate() {
         <hr />
       </div>
       <div className="namePlateBody">
+        adammartinezdev@gmail.com <br />
+        (310) 383-0682
         <p>
           {/* I design and develop sites and digital experiences for the web. */}
           I grew up with the web, and over the course of my life I have seen it

@@ -81,8 +81,8 @@
 #namePlate {
   margin: 0;
   font-size: 1.5rem;
-  height: 430px;
-  max-height: 430px;
+  height: 500px;
+  max-height: 500px;
 }
 
 .highlight {
@@ -170,8 +170,8 @@ img.icon.last {
 }
 
 .projectList {
-  height: 500px;
-  max-height: 500px;
+  height: 570px;
+  max-height: 570px;
   overflow-y: scroll;
 }
 
