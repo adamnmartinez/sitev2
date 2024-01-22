@@ -1,6 +1,7 @@
 import { useState } from "react";
 import hotg from "../assets/images/hotgss.png";
 import compendium from "../assets/images/compendiumss.png";
+import colorselect from "../assets/images/colorselect.png"
 
 export default function Projects() {
   function ProjectItem({ name, desc, img, tags = [], repo, live }) {
@@ -42,6 +43,13 @@ export default function Projects() {
           img={compendium}
           repo="https://github.com/adamnmartinez/compendium"
           live="https://compendiumapp.netlify.app/"
+        />
+        <ProjectItem
+          name="ColorSelect"
+          desc="A simple tool for digital artists, image editors, and designers that takes in an image and provides information about its color distribution, including the most frequent pixel color values as well as an average color value."
+          img={colorselect}
+          repo="https://github.com/adamnmartinez/colorselect"
+          live="https://imagecolorselect.netlify.app/"
         />
       </ul>
     );
