@@ -2,6 +2,7 @@ import { useState } from "react";
 import hotg from "../assets/images/hotgss.png";
 import compendium from "../assets/images/compendiumss.png";
 import colorselect from "../assets/images/colorselect.png"
+import guitarism from "../assets/images/guitarism.png"
 
 export default function Projects() {
   function ProjectItem({ name, desc, img, tags = [], repo, live }) {
@@ -50,6 +51,13 @@ export default function Projects() {
           img={colorselect}
           repo="https://github.com/adamnmartinez/colorselect"
           live="https://imagecolorselect.netlify.app/"
+        />
+         <ProjectItem
+          name="Guitarism"
+          desc="A powerful tool for writing, editing, and sharing guitar tablature. The app is equipped with an immersive notation builder designed to unlock user creativity. Built with React and Firebase, written in Typescript."
+          img={guitarism}
+          repo="https://github.com/adamnmartinez/guitarism"
+          live="https://guitarism.netlify.app/"
         />
       </ul>
     );
