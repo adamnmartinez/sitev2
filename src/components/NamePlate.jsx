@@ -54,7 +54,7 @@ export default function NamePlate() {
           <span className="highlight">Adam Martinez</span>.
         </header>
         <h1>
-          I'm a <span className="highlight">web developer</span>.
+          I'm a <span className="highlight">software developer</span>.
         </h1>
         <hr />
       </div>

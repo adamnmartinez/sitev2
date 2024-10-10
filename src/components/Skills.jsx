@@ -10,6 +10,10 @@ import webpackicon from "../assets/icons/webpack.svg";
 import pythonicon from "../assets/icons/python.svg";
 import tsicon from "../assets/icons/typescript.svg";
 import sassicon from "../assets/icons/sass.svg";
+import cpp from "../assets/icons/cplusplus.svg";
+import csharp from "../assets/icons/csharp.svg";
+import unity from "../assets/icons/unity-original.svg";
+import firebase from "../assets/icons/firebase.svg";
 
 export default function Skills() {
   const [hover, setHover] = useState("");
@@ -36,7 +40,11 @@ export default function Skills() {
         <SkillIcon icon={cssicon} name="CSS" />
         <SkillIcon icon={webpackicon} name="Webpack" />
         <SkillIcon icon={sassicon} name="Sass" />
-        <SkillIcon icon={npmicon} name="npm" last={true} />
+        <SkillIcon icon={npmicon} name="npm" />
+        <SkillIcon icon={firebase} name="firebase" />
+        <SkillIcon icon={cpp} name="C++" />
+        <SkillIcon icon={csharp} name="C#" />
+        <SkillIcon icon={unity} name="Unity" last={true} />
       </ul>
     );
   }

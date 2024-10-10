@@ -3,6 +3,7 @@ import hotg from "../assets/images/hotgss.png";
 import compendium from "../assets/images/compendiumss.png";
 import colorselect from "../assets/images/colorselect.png"
 import guitarism from "../assets/images/guitarism.png"
+import asteroids from "../assets/images/asteroids_screenshot.png"
 
 export default function Projects() {
   function ProjectItem({ name, desc, img, tags = [], repo, live }) {
@@ -52,12 +53,19 @@ export default function Projects() {
           repo="https://github.com/adamnmartinez/colorselect"
           live="https://imagecolorselect.netlify.app/"
         />
-         <ProjectItem
+        <ProjectItem
           name="Guitarism"
           desc="A powerful tool for writing, editing, and sharing guitar tablature. The app is equipped with an immersive notation builder designed to unlock user creativity. Built with React and Firebase, written in Typescript."
           img={guitarism}
           repo="https://github.com/adamnmartinez/guitarism"
           live="https://guitarism.netlify.app/"
+        />
+        <ProjectItem
+          name="Asteroids"
+          desc="A shower of asteroids is on a collision path with earth, and there's only one pilot who can stop it from destroying everything. How long can you hold out? Asteroids is a 2D pixel-graphics arcade game made in Unity, written in C#."
+          img={asteroids}
+          repo="https://github.com/adamnmartinez/AsteroidGame"
+          live="https://github.com/adamnmartinez/AsteroidGame"
         />
       </ul>
     );
