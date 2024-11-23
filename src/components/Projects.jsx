@@ -1,7 +1,7 @@
 import { useState } from "react";
 import hotg from "../assets/images/hotgss.png";
 import compendium from "../assets/images/compendiumss.png";
-import colorselect from "../assets/images/colorselect.png"
+import etrss from "../assets/images/etrss.png"
 import guitarism from "../assets/images/guitarism.png"
 import asteroids from "../assets/images/asteroids_screenshot.png"
 
@@ -47,13 +47,6 @@ export default function Projects() {
           live="https://compendiumapp.netlify.app/"
         />
         <ProjectItem
-          name="ColorSelect"
-          desc="A simple tool for digital artists, image editors, and designers that takes in an image and provides information about its color distribution, including the most frequent pixel color values as well as an average color value."
-          img={colorselect}
-          repo="https://github.com/adamnmartinez/colorselect"
-          live="https://imagecolorselect.netlify.app/"
-        />
-        <ProjectItem
           name="Guitarism"
           desc="A powerful tool for writing, editing, and sharing guitar tablature. The app is equipped with an immersive notation builder designed to unlock user creativity. Built with React and Firebase, written in Typescript."
           img={guitarism}
@@ -66,6 +59,13 @@ export default function Projects() {
           img={asteroids}
           repo="https://github.com/adamnmartinez/AsteroidGame"
           live="https://github.com/adamnmartinez/AsteroidGame"
+        />
+        <ProjectItem
+          name="Escape the Rift"
+          desc="Escape the Rift is a gravity-bending platformer game built in Unity. This solo project was completed in under 96 hours for the Macro Jam #2 Game Jam hosted by benZamg."
+          img={etrss}
+          repo="https://github.com/adamnmartinez/DistortionGame"
+          live="https://kaymati.itch.io/escape-the-rift"
         />
       </ul>
     );
