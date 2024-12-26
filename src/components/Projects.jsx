@@ -23,7 +23,7 @@ export default function Projects() {
           <p>{desc}</p>
         </div>
         <a href={live} target="_blank">
-          <img className="projectScreenshot" src={img}></img>
+          {/* <img className="projectScreenshot" src={img}></img> */}
         </a>
       </li>
     );
