@@ -151,12 +151,16 @@ h1 {
 
 .projectList {
   list-style: none;
+  display: flex;
   padding-left: 0;
+  flex: 1;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .projectListElement {
-  width: 26rem;
-  height: 350px;
+  width: 25%;
+  height: 400px;
   padding: 2rem;
   border-radius: 10px;
   margin-bottom: 30px;
@@ -184,21 +188,31 @@ h1 {
 }
 
 #projects header {
-  font-size: 2rem;
+  font-size: 200%;
 }
 
 #projects p {
-  font-size: 1.3rem;
+  font-size: 120%;
 }
 
 .projectDetails {
   margin-right: 5px;
 }
 
-@media (max-width: 1400px) {
-  .projectListElement {
-    /* display: block; */
+@media (max-width: 1600) {
+  #projects p{
+    font-size: 100%;
   }
+  #projects header {
+    font-size: 150%;
+  }
+  .projectListElement {
+    width: 200px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 1400px) {
 
   .projectScreenshot {
     padding: 0;
@@ -211,6 +225,7 @@ h1 {
   :root {
     font-size: 11px;
   }
+
 }
 
 @media (max-width: 900px) {
@@ -242,10 +257,16 @@ h1 {
     padding-bottom: 0;
   }
 
+  .projectList {
+    display: inline;
+  }
+
   .projectListElement {
-    display: inline-block;
+    display: inline;
+    width: 100%;
     text-align: center;
     float: none;
+    background-color: var(--bg);
   }
 
   .hoverText {
