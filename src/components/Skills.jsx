@@ -40,8 +40,8 @@ export default function Skills() {
         <SkillIcon icon={cssicon} name="CSS" />
         <SkillIcon icon={webpackicon} name="Webpack" />
         <SkillIcon icon={sassicon} name="Sass" />
-        <SkillIcon icon={npmicon} name="npm" />
-        <SkillIcon icon={firebase} name="firebase" />
+        <SkillIcon icon={npmicon} name="Node Package Manager" />
+        <SkillIcon icon={firebase} name="Firebase" />
         <SkillIcon icon={cpp} name="C++" />
         <SkillIcon icon={csharp} name="C#" />
         <SkillIcon icon={unity} name="Unity" last={true} />
@@ -51,10 +51,10 @@ export default function Skills() {
 
   return (
     <div id="skills">
-      <h1>Here are some of the technologies I've been working with.</h1>
+      <h1>Technologies I've been working with</h1>
       <hr />
       <SkillList />
-      <br />
+      {/* <br /> */}
       <p className="hoverText">{hover}</p>
     </div>
   );

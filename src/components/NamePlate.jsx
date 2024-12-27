@@ -71,7 +71,7 @@ export default function NamePlate() {
           share.
         </p>
         <Links />
-        <br />
+        {/* <br /> */}
         <p className="hoverText">{hover}</p>
       </div>
     </div>

@@ -42,18 +42,10 @@
 }
 
 #flexcontainer {
-  display: inline;
+  /* display: inline; */
 }
 
 .leftContainer {
-  /* padding: 10rem; */
-  /* padding-top: 5rem;
-  padding-right: 5rem; */
-  /* padding-bottom: 0; */
-  /* float: left; */
-  /* width: 500px;
-  height: 700px; */
-
   padding: 10rem;
 }
 
@@ -64,12 +56,10 @@
 }
 
 #skills {
-  text-align: center;
-  font-size: 1.5rem;
   padding-top: 10rem;
-  padding-bottom: 10rem;
-  height: 200px;
-  max-height: 200px;
+  padding-bottom: 2.5rem;
+  font-size: 1.5rem;
+  height: 25px;
 }
 
 .leftContainer .namePlateBody:hover {
@@ -135,10 +125,12 @@ h1 {
 }
 
 .iconList {
-  display: inline;
   list-style: none;
-  height: 50px;
-  max-height: 50px;
+  text-align: left;
+}
+
+.iconList li {
+  display: inline-block;
 }
 
 .icon {
@@ -148,12 +140,8 @@ h1 {
   margin-left: 0rem;
   height: 2.5rem;
   width: 2.5rem;
-  float: left;
-  transition: opacity 500ms;
-}
 
-img.icon.last {
-  margin-right: 0;
+  transition: opacity 500ms;
 }
 
 .icon:hover {
@@ -167,46 +155,49 @@ img.icon.last {
 }
 
 .projectListElement {
-  display: inline-block;
-  width: 30%;
+  width: 26rem;
   height: 350px;
-  padding: 1rem;
+  padding: 2rem;
   border-radius: 10px;
   margin-bottom: 30px;
-  margin: 4px;
+  margin: 1rem;
   float: left;
   background-color: var(--bg_dark);
+}
+
+.tagList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tagList li {
+  display: inline-block;
+  text-align: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 50px;
+  background-color: var(--bg);
 }
 
 #projects header {
   font-size: 2rem;
 }
+
 #projects p {
   font-size: 1.3rem;
-}
-
-.projectScreenshot {
-  height: 120px;
-  width: 240px;
-  padding: 1rem;
-  margin-left: 1rem;
-  border-radius: 20px;
-  opacity: 70%;
-  transition: opacity 500ms;
 }
 
 .projectDetails {
   margin-right: 5px;
 }
 
-.projectScreenshot:hover {
-  opacity: 100%;
-  transition: opacity 500ms;
-}
-
 @media (max-width: 1400px) {
   .projectListElement {
-    display: block;
+    /* display: block; */
   }
 
   .projectScreenshot {
@@ -233,37 +224,28 @@ img.icon.last {
     height: 450px;
   }
 
-  .iconList li {
-    display: inline-block;
+  #skills {
+    padding-bottom: 20rem;
   }
 
+  .iconList {
+    text-align: center;
+  }
+  
   .rightContainer {
-    padding-right: 5rem;
+    float: center;
+    padding: 8rem;
   }
 
   .leftContainer {
-    padding-left: 5rem;
+    padding: 8rem;
     padding-bottom: 0;
-  }
-
-  .projectList {
-    /* max-height: 100%; */
-    /* overflow-y: visible; */
   }
 
   .projectListElement {
     display: inline-block;
     text-align: center;
-  }
-
-  .projectScreenshot {
-    height: 100px;
-    width: 200px;
-    padding: 1rem;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 1rem;
-    margin-bottom: 40px;
+    float: none;
   }
 
   .hoverText {
