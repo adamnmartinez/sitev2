@@ -78,7 +78,7 @@ export default function Projects() {
         />
         <ProjectItem
           name="SecureAPI"
-          desc="A secure backend web authentication API build with NodeJS, designed to be resilient against misuse and common cyberattacks."
+          desc="A secure backend web authentication API built with NodeJS, designed to be resilient against misuse and common cyberattacks."
           tags={["NodeJS", "Backend", "API", "Cybersecurity"]}
           repo="https://github.com/adamnmartinez/SecureAPI"
         />

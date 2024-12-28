@@ -269,6 +269,11 @@ h1 {
     background-color: var(--bg);
   }
 
+  .tagList li {
+    background-color: var(--bg);
+    font-style: bold;
+  }
+
   .hoverText {
     margin: 0px;
     width: 100%;
