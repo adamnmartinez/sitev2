@@ -1,24 +1,15 @@
-import { useState } from "react";
-import hotg from "../assets/images/hotgss.png";
-import compendium from "../assets/images/compendiumss.png";
-import etrss from "../assets/images/etrss.png"
-import guitarism from "../assets/images/guitarism.png"
-import asteroids from "../assets/images/asteroids_screenshot.png"
+import kioptrix_1_wu from "../assets/documents/kioptrix_1_wu.pdf"
 
 export default function Projects() {
-  function ProjectItem({ name, desc, tags = [], repo, live }) {
+  function ProjectItem({ name, desc, tags = [], repo, live, doc }) {
     return (
       <li className="projectListElement">
         <div className="projectDetails">
           <header>{name}</header>
           <span className="projectLinks">
-            <a href={repo} target="_blank">
-              GitHub
-            </a>
-            {live ? <> {" | "}
-            <a href={live} target="_blank">
-              Live
-            </a></> : ""}
+            {repo ? <a href={repo} target="_blank">Github</a> : ""} {repo && live ? " | " : ""}
+            {live ? <a href={live} target="_blank">Live</a> : ""} {live && doc ? " | " : ""}
+            {doc ? <a href={doc} target="_blank">Writeup</a> : ""}
           </span>
           <p>{desc}</p>
         </div>
@@ -81,6 +72,12 @@ export default function Projects() {
           desc="A secure backend web authentication API built with NodeJS, designed to be resilient against misuse and common cyberattacks."
           tags={["NodeJS", "Backend", "API", "Cybersecurity"]}
           repo="https://github.com/adamnmartinez/SecureAPI"
+        />
+        <ProjectItem
+          name="Exploitation Analysis: Kioptrix #1"
+          desc="Hacking a compromised virtual machine by exploiting vulnerable services."
+          tags={["Red Teaming", "Exploitation", "Writeup", "Cybersecurity"]}
+          doc={kioptrix_1_wu}
         />
       </ul>
     );

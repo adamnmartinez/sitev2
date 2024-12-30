@@ -2,7 +2,7 @@ import { useState } from "react";
 import github from "../assets/icons/github.svg";
 import linkedin from "../assets/icons/linkedin.svg";
 import pageicon from "../assets/icons/page.png";
-import resume from "../assets/Resume.pdf";
+import resume from "../assets/documents/Resume.pdf";
 
 export default function NamePlate() {
   //State for link hover
