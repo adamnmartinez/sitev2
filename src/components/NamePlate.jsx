@@ -61,15 +61,7 @@ export default function NamePlate() {
       <div className="namePlateBody">
         adammartinezdev@gmail.com <br />
         (310) 383-0682
-        <p>
-          {/* I design and develop sites and digital experiences for the web. */}
-          I grew up with the web, and over the course of my life I have seen it
-          grow into a wild and unpredicatble engine with the capacity to drive
-          culture, motivate populations, and inspire change. Today I seek to
-          harness this power by designing and creating immersive apps and
-          software that help people engage with this interconnected world we now
-          share.
-        </p>
+        
         <Links />
         {/* <br /> */}
         <p className="hoverText">{hover}</p>

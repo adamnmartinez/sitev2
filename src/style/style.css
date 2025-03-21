@@ -57,9 +57,9 @@
 
 #skills {
   padding-top: 10rem;
-  padding-bottom: 2.5rem;
+  padding-bottom: 2rem;
   font-size: 1.5rem;
-  height: 25px;
+  height: 10px;
 }
 
 .leftContainer .namePlateBody:hover {
@@ -68,6 +68,7 @@
 
 .rightContainer {
   padding: 10rem;
+  padding-top: 5rem;
 }
 
 .rightContainer .projectList {
@@ -82,7 +83,7 @@
 #namePlate {
   margin: 0;
   font-size: 1.5rem;
-  height: 500px;
+  height: 200px;
   max-height: 500px;
 }
 
@@ -219,6 +220,12 @@ h1 {
     margin: 0;
     margin-bottom: 40px;
   }
+
+  .rightContainer {
+    padding: 10rem;
+    padding-top: 10rem;
+  }
+  
 }
 
 @media (max-width: 1200px) {
@@ -236,11 +243,7 @@ h1 {
   }
 
   #namePlate {
-    height: 450px;
-  }
-
-  #skills {
-    padding-bottom: 20rem;
+    height: 200px;
   }
 
   .iconList {
@@ -259,6 +262,7 @@ h1 {
 
   .projectList {
     display: inline;
+    text-align: center;
   }
 
   .projectListElement {
@@ -278,7 +282,14 @@ h1 {
     margin: 0px;
     width: 100%;
     max-width: 100%;
+ 
   }
+
+  .rightContainer {
+    padding: 10rem;
+    padding-top: 20rem;
+  }
+  
 }
 
 @media (max-width: 600px) {
