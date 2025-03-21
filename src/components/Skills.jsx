@@ -21,7 +21,10 @@ export default function Skills() {
   function SkillIcon({ icon, name, last = false }) {
     const imgclass = last ? "icon last" : "icon";
     return (
-      <li onMouseEnter={() => setHover(name)} onMouseLeave={() => setHover("")}>
+      <li 
+        // onMouseEnter={() => setHover(name)} 
+        // onMouseLeave={() => setHover("")}
+      >
         <img className={imgclass} src={icon}></img>
       </li>
     );

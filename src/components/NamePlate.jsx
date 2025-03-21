@@ -14,8 +14,8 @@ export default function NamePlate() {
       <a
         href={link}
         target="_blank"
-        onMouseEnter={() => setHover(name)}
-        onMouseLeave={() => setHover("")}
+        // onMouseEnter={() => setHover(name)}
+        // onMouseLeave={() => setHover("")}
       >
         <img className={imgclass} src={icon}></img>
       </a>
