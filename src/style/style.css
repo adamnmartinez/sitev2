@@ -46,33 +46,34 @@
 }
 
 .leftContainer {
-  padding: 10rem;
+  padding: 7rem;
 }
 
 .leftContainer .namePlateBody {
-  opacity: 75%;
+  opacity: 100%;
   transition: opacity 500ms;
-  height: 100px;
+  color: var(--highlight);
+  padding-top: 5rem;
 }
 
-#skills {
-  padding-top: 10rem;
+/* #skills {
+  padding-top: 5rem;
   padding-bottom: 2rem;
   font-size: 1.5rem;
   height: 10px;
-}
+} */
 
 .leftContainer .namePlateBody:hover {
   opacity: 100%;
 }
 
 .rightContainer {
-  padding: 10rem;
-  padding-top: 5rem;
+  padding: 7rem;
+  /* padding-top: 15rem; */
 }
 
 .rightContainer .projectList {
-  opacity: 75%;
+  opacity: 100%;
   transition: opacity 500ms;
 }
 
@@ -83,8 +84,8 @@
 #namePlate {
   margin: 0;
   font-size: 1.5rem;
-  height: 200px;
-  max-height: 500px;
+  /* height: 200px;
+  max-height: 500px; */
 }
 
 .highlight {
@@ -161,11 +162,13 @@ h1 {
 
 .projectListElement {
   width: 25%;
-  height: 400px;
+  /* height: 400px; */
   padding: 2rem;
+  
   border-radius: 10px;
   margin-bottom: 30px;
-  margin: 1rem;
+  margin: 2rem;
+  margin-left: 0px;
   float: left;
   background-color: var(--bg_dark);
 }
@@ -202,14 +205,19 @@ h1 {
 
 @media (max-width: 1600) {
   #projects p{
-    font-size: 100%;
+    font-size: 80%;
   }
   #projects header {
     font-size: 150%;
   }
   .projectListElement {
-    width: 200px;
-    height: 350px;
+    /* width: 200px;
+    height: 350px; */
+  }
+  
+  .rightContainer {
+    margin: 5rem;
+    margin-top: 0rem
   }
 }
 
@@ -222,8 +230,7 @@ h1 {
   }
 
   .rightContainer {
-    padding: 10rem;
-    padding-top: 10rem;
+    padding-top: 5rem;
   }
   
 }
@@ -238,37 +245,40 @@ h1 {
 @media (max-width: 900px) {
 
   #flexcontainer {
-    text-align: center;
+    /* text-align: center; */
     display: inline;
   }
 
   #namePlate {
-    height: 200px;
+    /* height: 200px; */
   }
 
   .iconList {
-    text-align: center;
+    /* text-align: center; */
   }
   
   .rightContainer {
     float: center;
-    padding: 8rem;
+    padding: 5rem;
   }
 
   .leftContainer {
-    padding: 8rem;
+    padding: 3rem;
     padding-bottom: 0;
   }
 
   .projectList {
     display: inline;
-    text-align: center;
+    /* text-align: center; */
   }
 
   .projectListElement {
     display: inline;
     width: 100%;
-    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 3rem;
+    /* text-align: center; */
     float: none;
     background-color: var(--bg);
   }
@@ -276,17 +286,18 @@ h1 {
   .tagList li {
     background-color: var(--bg);
     font-style: bold;
+    visibility: hidden;
   }
 
   .hoverText {
     margin: 0px;
-    width: 100%;
-    max-width: 100%;
+    /* width: 100%;
+    max-width: 100%; */
  
   }
 
   .rightContainer {
-    padding: 10rem;
+    padding: 2rem;
     padding-top: 20rem;
   }
   
@@ -303,7 +314,7 @@ h1 {
 
   .projectListElement {
     display: inline-block;
-    text-align: center;
+    /* text-align: center; */
   }
 }
 

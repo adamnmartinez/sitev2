@@ -79,14 +79,25 @@ export default function Projects() {
           tags={["Red Teaming", "Exploitation", "Writeup", "Cybersecurity"]}
           doc={kioptrix_1_wu}
         />
+        <ProjectItem
+          name="PinPoint - Enforcement Tracker"
+          desc="A community-driven mobile app for corroborating reports of law enforcement in the local area, establishing accountability and transparency for those keeping us safe."
+          tags={["NodeJS", "ReactJS", "Mobile App", "Social Good", "PostgreSQL"]}
+          repo="https://github.com/adamnmartinez/pinpointapp"
+        />
+        <ProjectItem
+          name="Autonomous Pan-Tilt Camera Robot"
+          desc="A robot equipped with a camera, capable of hands-free closed loop control using a home-trained neural network for autonomous actuation of pan and tilt servos towards human faces. Built with ROS2 and PyTorch"
+          tags={["Robotics", "ROS", "Machine Learning", "Control Systems", "PyTorch"]}
+          repo="https://github.com/adamnmartinez/pt_camera"
+        />
       </ul>
     );
   }
 
   return (
     <div id="projects">
-      <header>What I've been working on</header>
-      <hr />
+      <header>Projects</header>
       <ProjectList />
     </div>
   );

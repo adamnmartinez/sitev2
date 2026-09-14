@@ -49,14 +49,13 @@ export default function NamePlate() {
   return (
     <div id="namePlate">
       <div className="namePlateHead">
-        <h1>Welcome! My name is</h1>
+        <h1>Hello! My name is</h1>
         <header>
-          <span className="highlight">Adam Martinez</span>.
+          <span className="highlight">Adam Martinez</span>
         </header>
-        <h1>
-          I'm a <span className="highlight">software developer</span>.
-        </h1>
-        <hr />
+        I'm a full time student pursuing an M.S. in Computer Science at the University of California, Santa Cruz. I work as an assistant researcher in the AIEA Lab at UCSC, where we study transparent, explainable AI in the context of autonomous vehicle control. 
+        <br /><br /> Currently, my work is in the development of sensible control systems and graph search algorithms for AVs in urban environments. 
+        <br/><br/> In my free time I build things I think would be cool. 
       </div>
       <div className="namePlateBody">
         adammartinezdev@gmail.com <br />

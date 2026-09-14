@@ -9,9 +9,11 @@ function App() {
       <div id="flexcontainer">
         <div className="leftContainer">
           <NamePlate />
-          <Skills />
+          {/* <Skills /> */}
         </div>
+        
         <div className="rightContainer">
+          <hr />
           <Projects />
         </div>
       </div>
